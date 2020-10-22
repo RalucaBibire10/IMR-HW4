@@ -360,9 +360,15 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1109910346}
-  m_Text: 'Press "A" to start the animation
+  m_Text: 'Press "1" to start the first animation
 
-    Press "R" to restart the scene'
+    Press "2" to start the second
+    animation
+
+    Press "3" to start the third animation
+
+    Press "R" to restart
+    the scene'
   m_OffsetZ: 0
   m_CharacterSize: 0.5
   m_LineSpacing: 1

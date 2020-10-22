@@ -14,11 +14,19 @@ public class handController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("a"))
+        if (Input.GetKeyDown("1"))
         {
             animator.Play("Armature|peace");
         }
-        if (Input.GetKeyDown("r"))
+        else if (Input.GetKeyDown("2"))
+        {
+            animator.Play("Armature|thumbs up");
+        }
+        else if (Input.GetKeyDown("3"))
+        {
+            animator.Play("Armature|wave");
+        }
+        else if (Input.GetKeyDown("r"))
         {
             animator.Play("New State");
         }
